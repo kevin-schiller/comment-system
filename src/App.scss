@@ -1,0 +1,27 @@
+@import "bulma/sass/utilities/_all.sass";
+@import "bulma/sass/elements/button.sass";
+
+input,textarea {
+  display: block;
+}
+
+.title.is-3 {
+  color: rgb(6, 185, 176);
+}
+
+.commentSystem {
+  display: flex;
+}
+.CommentForm, .commentList {
+  margin: 0 30px;
+  width: 50%;
+}
+ul {
+  li {
+    color: red;
+  }
+}
+
+.input, .textarea, .title, .button, .comment-list{
+  margin: 10px;
+}
